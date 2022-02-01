@@ -36,11 +36,11 @@ function initilize() {
 // initilize
 initilize();
 
-//function that add the eq's value to memory 
+//function that add the eq's value to memory
 function add() {
   memory_storage.push(eval(eq));
-  if(memory_storage.length > 5){
-    memory_storage.splice(0,1)
+  if (memory_storage.length > 5) {
+    memory_storage.splice(0, 1);
   }
   console.log(memory_storage);
 }
