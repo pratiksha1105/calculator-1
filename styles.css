@@ -12,8 +12,7 @@ input[type='button'] {
   color: black;
   border: solid black 2px;
   width: 100%;
-  font-family: cursive;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 input[type='text'] {
