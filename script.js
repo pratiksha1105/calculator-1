@@ -23,7 +23,7 @@ function initilize() {
   console.log('Initializing');
   document.getElementById('btn_clear').addEventListener('click', clr);
   document.getElementById('btn_solve').addEventListener('click', solve);
-  document.getElementById('btn_add').addEventListener('click',add);
+  document.getElementById('btn_add').addEventListener('click', add);
 
   const opButtons = document.getElementsByClassName('op_button');
   for (let i = 0; i < opButtons.length; i++) {
@@ -42,4 +42,5 @@ function add(){
   if(memory_storage>5){
     memory_storage.splice(0,1)
   }
+  console.log(memory_storage);
 }
