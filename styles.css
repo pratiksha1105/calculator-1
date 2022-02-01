@@ -20,6 +20,8 @@ input[type='text'] {
   background-color: white;
   border: solid black 2px;
   width: 100%;
-  color: red;
+  color: rgb(255, 115, 0);
   text-align: right;
+  font-weight: bold;
+  font-family: cursive;
 }
