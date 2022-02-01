@@ -4,17 +4,22 @@
   width: 210px;
   color: green;
   border: solid black 2px;
+  font-weight: bolder;
 }
 
 input[type='button'] {
-  background-color: green;
+  background-color:aqua;
   color: black;
   border: solid black 2px;
   width: 100%;
+  font-family: cursive;
+  font-weight: bold;
 }
 
 input[type='text'] {
   background-color: white;
   border: solid black 2px;
   width: 100%;
+  color: red;
+  text-align: right;
 }
